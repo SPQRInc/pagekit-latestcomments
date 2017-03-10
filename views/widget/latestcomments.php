@@ -15,7 +15,7 @@
 									<?= __(
 										'Written by %name% on %date%',
 										[
-											'%name%' => $comment->user->name,
+											'%name%' => $comment->author,
 											'%date%' => '<time datetime="' . $comment->created->format(
 													\DateTime::ATOM
 												) . '" v-cloak>{{ "' . $comment->created->format(
