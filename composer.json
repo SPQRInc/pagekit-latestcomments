@@ -1,0 +1,19 @@
+{
+  "name": "spqr/latestcomments",
+  "version": "1.0.0",
+  "type": "pagekit-extension",
+  "title": "Latest Blog Comments",
+  "description": "Shows latest blog comments",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Roman Lossin-Beßler",
+      "homepage": "https://spqr.wtf"
+    }
+  ],
+  "extra": {
+    "icon": "icon.svg"
+  },
+  "require": {
+  }
+}
